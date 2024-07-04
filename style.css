@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alike&family=Margarine&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.sidebar{
+    background-color: rgb(28, 24, 24);
+    width : 234px;
+    font-family: "Ubuntu", sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav{
+    padding: 30px;
+    color: white;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 20px;
+    padding: 30px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    background-color: rgb(28, 24, 24);
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    background-color: rgb(28, 24, 24);
+    height: 58vh;
+    width: 80vw;
+    margin:100px auto;
+    display: flex;
+    justify-content: baseline;
+    color: white;
+}
+
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Alike", serif;
+}
+
+/*.devPic img{
+    height: 58vh;
+}*/
+
+.hello{
+    font-size: 35px;
+}
+
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.about{
+    font-size: 21px;
+}
+
+.moreabout{
+    margin: 23px 0;
+    font-size: 18px;
+    font-family: "Ubuntu", sans-serif;
+}
+.buttons{
+    margin-top: 34px;
+}
+
+.buttons button{
+    padding: 6px 10px;
+    border-radius: 6px;
+    color: white;
+    background-color: rgb(28, 24, 24);
+    font-weight: bold;
+    font-size: 13px;
+    margin: 0 3px;
+    box-shadow:0 8px 16px 0 rgba(202, 33, 171, 0.507), 0px 0px 3px 2px rgba(202, 33, 171, 0.507);
+    cursor: pointer;
+}
+
+
+.contactform{
+    padding: 0 34px;
+    padding-top: 50px;
+    font-family: "Ubuntu", sans-serif;
+    background-color: rgb(28, 24, 24);
+    color: white;
+}
+
+.contactform h1{
+    font-family: "Alike", serif;
+    padding: 12px 0;
+}
+
+.contactform form div{
+    padding: 10px 0;
+}
+
+.contactform form div input{
+    width: 20vw;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 4px;
+    margin: 6px 4px;
+    padding: 5px 3px;
+}
+
+.contactform form div textarea{
+    width: 42vw;
+    height: 10vh;
+    border-radius: 4px;
+    margin: 6px 0;
+    padding: 3px;
+}
+
+.mb-3{
+    display: flex;
+    flex-direction: column;
+}
+#emailHelp{
+    font-size: 10px;
+    color: rgb(249, 243, 243);
+    margin: 0 5px;
+    padding: 2px 0;
+}
+
+.btn{
+    padding: 8px 16px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(28, 24, 24);
+    font-weight: bold;
+    font-size: 13px;
+    margin: 34px 3px;
+    box-shadow:0 8px 16px 0 rgba(202, 33, 171, 0.507), 0px 0px 3px 2px rgba(202, 33, 171, 0.507);
+    cursor: pointer;
+}
+
+.intro{
+    padding: 0 34px;
+    padding-top: 50px;
+    background-color: rgb(28, 24, 24);
+    color: white;
+}
+
+.intro h1{
+    font-family: "Alike", serif;
+    margin-bottom: 20px;
+}
+.intro h2{
+    font-family: "Alike", serif;
+    margin: 9px;
+}
+.intro p{
+    font-family: "Ubuntu", sans-serif;
+    margin: 12px;
+}
+
+
+.skillcontainer{
+    padding: 10px;
+    width:140px;
+   float:left;
+}
+
+.skillcontainer div{
+    display: flex;
+    flex-direction: column;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.skillItem{
+    display:flex;
+    padding: 4px 0;
+    font-weight: 800;
+}
+
+.skill{
+    width: 265px;
+    height: 5px;
+    background-color: rgb(28, 24, 24);
+    border: 1px solid white;
+}
+
+.hundered{
+    width: 265px;
+    background-color: aqua;
+}
+
+.ninty{
+    width: 220px;
+    background-color: cadetblue;
+}
+
+.fifty{
+    width: 130px;
+    background-color: rgb(142, 73, 112);
+}
+.t25{
+    width: 75px;
+    background-color: rgb(101, 142, 92);
+}
+
+.education{
+    padding: 15px;
+    color: white;
+    width: 30vw;
+    margin: 0 500px ;
+    
+}
+
+.education h2{
+    font-family: "Alike", serif;
+}
+
+.education div{
+    padding: 3px 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.experienceContainer{
+    margin-left: 35px;
+    padding: 100px 0 ;
+    background-color: rgb(28, 24, 24);
+    color: white;
+}
+
+.experienceContainer h2{
+    font-family: "Alike", serif;
+    margin-bottom: 16px 0;
+}
+
+#date1{
+   font-size: 15px;
+   padding: 12px ;
+   font-family: "Ubuntu", sans-serif;
+}
+.company-content{
+    padding-top: 7px;
+    font-size: 20px;
+   font-family: "Ubuntu", sans-serif;
+}
+
+.projectContainer{
+    padding: 0 34px;
+    padding-top: 50px;
+    background-color: rgb(28, 24, 24);
+    color: white;
+}
+
+.project1{
+    height: 40vh;
+    width: 40vw;
+    float: left;
+    font-family: "Ubuntu", sans-serif;
+}
+.project1 h3{
+    padding-top: 30px;
+}
+
+.project1 a img{
+    height: 30vh;
+}
+
+.project2{
+    height: 40vh;
+    width: 40vw;
+    float: right;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.project2 h3{
+    padding-top: 30px;
+}
+
+.project2 a img{
+    height: 30vh;
+}
+
+.project3{
+    height: 40vh;
+    width: 40vw;
+    float: left;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.project3 h3{
+    padding-top: 30px;
+}
+
+.project3 a img{
+    height: 30vh;
+}
+
+.project4{
+    height: 40vh;
+    width: 40vw;
+    float: right;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.project4 h3{
+    padding-top: 30px;
+}
+
+.project4 a img{
+    height: 30vh;
+}

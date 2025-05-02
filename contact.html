@@ -23,30 +23,26 @@
         <div class="main">
             <div id="contactID" class="contactform">
                 <h1>Contact Me</h1>
-                <form>
-                    <div class="form-row">
-                        <div class="col">
-                            <input type="text" class="form-control" placeholder="First name">
+               
+                    <form action="https://formsubmit.co/YOUR_EMAIL_HERE" method="POST">
+                    <!-- Disable captcha (optional) -->
+                         <input type="hidden" name="_captcha" value="false">
+  
+                        <!-- Optional: Redirect to thank you page -->
+                        <!-- <input type="hidden" name="_next" value="https://yourdomain.com/thank-you.html"> -->
 
-                            <input type="text" class="form-control" placeholder="Last name">
-                        </div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="clientemail" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">We'll never share your email & phone number with anyone
-                            else.</div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="clientphone" class="form-label">Phone Number (Optional)</label>
-                        <input type="phone" class="form-control" id="clientphone">
-                    </div>
-                    <div class="mb-3">
-                        <label for="clientmessage">Message</label>
-                        <textarea class="form-control" id="clientmessage" rows="3"></textarea>
-                    </div>
-                    <button type="submit" class="btn">Submit</button>
-                </form>
+                         <label for="name">Name:</label>
+                         <input type="text" name="name" required>
+
+                         <label for="email">Email:</label>
+                         <input type="email" name="email" required>
+
+                        <label for="message">Message:</label>
+                        <textarea name="message" rows="4" required></textarea>
+
+                        <button type="submit" class="contact-btn">Send Message</button>
+               </form>
+            
             </div>
         </div>
     </div>
